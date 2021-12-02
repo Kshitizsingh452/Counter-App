@@ -23,6 +23,7 @@ html {
 
 body {
   font-family: "Open Sans", sans-serif;
+  background-image: url('./images/photo-1579547621244-c07e55dcb856.webp');
 }
 
 p {
@@ -38,4 +39,51 @@ img {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.counter-div{
+    width: 40rem;
+    border: 1px solid grey;
+    padding: 1rem;
+    background-color: var(--light-blue);
+    color: var(--white);
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.counter-div > *{
+    margin-bottom: 2rem;
+
+}
+
+.counts{
+    font-size: 4rem;
+    font-weight: 600;
+    text-shadow: #db6400;
+
+}
+.buttons button{
+    padding: 1rem;
+    margin: 0 1rem ;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    font-weight: 700;
+
+}
+button.subtract{
+    background-color: orangered;
+}
+
+button.Reset{
+    background-color: white;
+}
+
+button.Add{
+    background-color: green;
 }
